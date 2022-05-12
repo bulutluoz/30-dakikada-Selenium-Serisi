@@ -1,4 +1,4 @@
-package video1;
+package video1_MavenProjeOlusturma;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;
