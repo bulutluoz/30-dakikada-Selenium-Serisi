@@ -10,6 +10,9 @@ public class IlkClass {
         WebDriverManager.chromedriver().setup();
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.amazon.com");
+        System.out.println(driver.getTitle());
+        driver.navigate().to("https://www.facebook.com");
+        System.out.println(driver.getTitle());
 
 
 
