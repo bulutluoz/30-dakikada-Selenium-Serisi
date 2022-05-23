@@ -13,10 +13,10 @@ public class C05_BeforeClass_AfterClass_Notasyonlari {
     // ve her method icin bu driver'i kapatmaya gerek yoktur
     // Class'in basinda bir kere setup calisip, en sonda kapansa olur
     // dersek BeforeClass ve AfterClass kullaniriz
-
     static WebDriver driver;
+
     @BeforeClass
-    public static void setUp() {
+    public  static void setUp() {
         WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();

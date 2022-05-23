@@ -31,10 +31,12 @@ public class C04_Before_After_Notasyonlari {
     }
     @Test
     public void test02() {
+
         driver.get("https:www.bestbuy.com");
     }
     @Test
     public void test03() {
+
         driver.get("https:www.facebook.com");
     }
 

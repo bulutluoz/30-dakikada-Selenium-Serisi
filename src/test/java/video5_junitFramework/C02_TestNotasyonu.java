@@ -12,6 +12,7 @@ import java.time.Duration;
 public class C02_TestNotasyonu {
     // @Test notasyonu olmayan method'lar bugune kadar yaptigimiz gibi sadece cagrildiklarinda calisir
     // Ancak @Test eklendiginde bagimsiz calisabilir hale gelir
+
     @Test
     public void test01() {
         // Ayarlari yapalim
