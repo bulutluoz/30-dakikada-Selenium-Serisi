@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="belirli pacakage calistirma">
+    <test name="paket">
+        <packages>
+            <package name="video9_testNGFramework"></package>
+            <package name="video8_actionsClass"></package>
+        </packages>
+    </test>
+    <test name="ayri test class i">
+        <classes>
+            <class name="video7_JUnitAssertionsOrnekler.C01_JunitAssertion"></class>
+        </classes>
+    </test>
+</suite>
+
+
