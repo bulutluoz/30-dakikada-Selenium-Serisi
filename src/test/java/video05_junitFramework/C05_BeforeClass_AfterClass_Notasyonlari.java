@@ -1,4 +1,4 @@
-package video5_junitFramework;
+package video05_junitFramework;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.*;

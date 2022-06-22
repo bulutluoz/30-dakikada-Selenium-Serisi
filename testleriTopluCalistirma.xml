@@ -8,7 +8,7 @@
     </test>
     <test name="ayri test class i">
         <classes>
-            <class name="video7_JUnitAssertionsOrnekler.C01_JunitAssertion"></class>
+            <class name="video07_JUnitAssertionsOrnekler.C01_JunitAssertion"></class>
         </classes>
     </test>
 </suite>

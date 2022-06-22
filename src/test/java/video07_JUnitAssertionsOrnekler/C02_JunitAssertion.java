@@ -1,4 +1,4 @@
-package video7_JUnitAssertionsOrnekler;
+package video07_JUnitAssertionsOrnekler;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.Assert;

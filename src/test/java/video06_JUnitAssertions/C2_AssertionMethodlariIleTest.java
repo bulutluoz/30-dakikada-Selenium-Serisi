@@ -1,7 +1,8 @@
-package video6_JUnitAssertions;
+package video06_JUnitAssertions;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.After;
+import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import org.openqa.selenium.By;
@@ -11,8 +12,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class C1_IfElseIleAssertion {
-
+public class C2_AssertionMethodlariIleTest {
     WebDriver driver;
     @Before
     public void setUp() {
@@ -43,12 +43,13 @@ public class C1_IfElseIleAssertion {
         // 1-48 of 105 results for "Nutella"
         String expectedBulunacakKelime="Kutella";
 
-        if (actualYaziStr.contains(expectedBulunacakKelime)){
-            System.out.println("Nutella testi PASSED");
-        } else {
-            System.out.println("Sonuc yazisi Nutella icermiyor" +
-                               "\nNutella testi FAILED");
+        Assert.assertTrue(actualYaziStr.contains(expectedBulunacakKelime));
+
+        int aliYas=56;
+        int veliYas=68;
+        int emeklilikYasi=65;
+
         }
 
     }
-}
+

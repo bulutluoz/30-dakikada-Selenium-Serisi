@@ -1,4 +1,4 @@
-package video4_webElements;
+package video04_webElements;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;

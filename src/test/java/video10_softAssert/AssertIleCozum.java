@@ -23,7 +23,7 @@ public class AssertIleCozum {
         //2. Navigate to url 'http://automationexercise.com'
         driver.get("http://automationexercise.com");
         //3. Verify that home page is visible successfully
-        String expectedUrl="https://automationexercise1.com/";
+        String expectedUrl="https://automationexercise.com/";
         String actualUrl= driver.getCurrentUrl();
         WebElement logoElementi= driver.findElement(By.xpath("//img[@alt='Website for automation practice']"));
         SoftAssert softAssert=new SoftAssert();

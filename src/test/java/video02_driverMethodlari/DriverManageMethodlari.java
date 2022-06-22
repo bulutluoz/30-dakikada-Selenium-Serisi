@@ -1,4 +1,4 @@
-package video2_driverMethodlari;
+package video02_driverMethodlari;
 
 
 import io.github.bonigarcia.wdm.WebDriverManager;

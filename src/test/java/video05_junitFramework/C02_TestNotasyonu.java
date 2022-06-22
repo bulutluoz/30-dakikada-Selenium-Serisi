@@ -1,6 +1,7 @@
-package video4_webElements;
+package video05_junitFramework;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -8,10 +9,13 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import java.time.Duration;
 
-public class WebElements01 {
+public class C02_TestNotasyonu {
+    // @Test notasyonu olmayan method'lar bugune kadar yaptigimiz gibi sadece cagrildiklarinda calisir
+    // Ancak @Test eklendiginde bagimsiz calisabilir hale gelir
 
-
-    public static void main(String[] args) {
+    @Test
+    public void test01() {
+        // Ayarlari yapalim
         WebDriverManager.chromedriver().setup();
         WebDriver driver=new ChromeDriver();
         driver.manage().window().maximize();
@@ -30,8 +34,4 @@ public class WebElements01 {
 
         driver.close();
     }
-
-
-
-
 }
