@@ -1,4 +1,4 @@
-package video9_testNGFramework;
+package video09_testNGFramework;
 
 import org.testng.annotations.*;
 

@@ -1,4 +1,4 @@
-package video9_testNGFramework;
+package video09_testNGFramework;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;

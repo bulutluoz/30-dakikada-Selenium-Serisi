@@ -1,4 +1,4 @@
-package video8_actionsClass;
+package video08_actionsClass;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.Assert;
